@@ -51,6 +51,7 @@ const switchTab = (id) => {
 };
 
 const createPost = (post) => {
+  const userPicture = `https://avatars.githubusercontent.com/u/53802153?v=4`;
     const image = post.image;
     const div = document.createElement( "article" );
     div.classList.add( "post" );
@@ -62,7 +63,7 @@ const createPost = (post) => {
                     target="_blank"
                     class="post__avatar"
                   >
-                    <img src="${image}" alt="User Picture" />
+                    <img src="${userPicture}" alt="User Picture" />
                   </a>
                   <a href="#" class="post__user">phero</a>
                 </div>
