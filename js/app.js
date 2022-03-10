@@ -51,7 +51,7 @@ const switchTab = (id) => {
 };
 
 const createPost = (post) => {
-  const userPicture = `https://avatars.githubusercontent.com/u/53802153?v=4`;
+  const userPicture = `https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="User Picture`;
     const image = post.image;
     const div = document.createElement( "article" );
     div.classList.add( "post" );
